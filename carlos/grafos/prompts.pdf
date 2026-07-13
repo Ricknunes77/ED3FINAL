@@ -1,0 +1,65 @@
+========================================================================
+RELATÓRIO DE USO DE INTELIGÊNCIA ARTIFICIAL (HISTÓRICO DE PROMPTS)
+========================================================================
+Instituição: Instituto Federal do Maranhão (IFMA) - Campus Coelho Neto
+Curso: Tecnologia em Análise e Desenvolvimento de Sistemas (ADS)
+Disciplina: Estrutura de Dados e Programação Orientada a Objetos
+Professor: Prof. Dr. Bruno Vicente
+Aluno: Carlos
+
+Ferramenta Utilizada: Google Gemini
+Modelo/Versão: Gemini 1.5 Pro / Advanced (Julho de 2026)
+========================================================================
+
+Abaixo estão listados, em ordem cronológica, os comandos (prompts) utilizados no desenvolvimento do projeto de Localizador & Visualizador de Caminhos em Grafos (BFS/DFS), conforme as diretrizes do edital.
+
+------------------------------------------------------------------------
+PROMPT 01: Escolha do Ambiente de Desenvolvimento (IDE)
+------------------------------------------------------------------------
+• Contexto: Decisão sobre qual ferramenta utilizar para iniciar o projeto Java com interface gráfica (Swing).
+• Texto enviado à IA: 
+  "Em qual IDE você acha melhor fazer ? IntelliJ ou VS CODE?"
+
+------------------------------------------------------------------------
+PROMPT 02: Resolução de Erros de Compilação na Classe Vértice
+------------------------------------------------------------------------
+• Contexto: Correção de bugs de sintaxe e compatibilidade de tipos gerados no código inicial da classe Vertice.java.
+• Texto enviado à IA:
+  "O ERRO QUE ESTÁ DANDO : Method does not override method from its superclass
+  Incompatible types. Found: 'int', required: 'java.util.Objects'
+  Method 'setNome(java.lang.String)' is never used
+  Method 'hash()' is never used
+  Typo: In word 'Correção'
+  Typo: In word 'consistência'"
+
+------------------------------------------------------------------------
+PROMPT 03: Depuração da Ação do Botão de Busca (Trajetória)
+------------------------------------------------------------------------
+• Contexto: Identificação do motivo pelo qual a interface gráfica não respondia ao clique do botão principal de execução dos algoritmos.
+• Texto enviado à IA:
+  "O BOTÃO DE RESOLVER TRAJETÓRIA NÃO ESTÁ FUNCIOMANDO. o Q QUE PODE SER FEITO ?"
+
+------------------------------------------------------------------------
+PROMPT 04: Ajuste de Nomenclatura e Alinhamento com as Regras
+------------------------------------------------------------------------
+• Contexto: Correção sobre a nomenclatura exata dos botões exibidos na interface gerada.
+• Texto enviado à IA:
+  "MAS NÃO HÁ BOTÃO DE DISPARAR ALGORITMOS, APENAS 'ESTABELECER CONEXÃO ' E 'RESOLVER TRAJETÓRIA'"
+
+------------------------------------------------------------------------
+PROMPT 05: Esclarecimento Teórico do Edital e Erro Persistente
+------------------------------------------------------------------------
+• Contexto: Compreensão conceitual do termo exigido no edital ("Resolver Trajetória") e reporte de erro de travamento.
+• Texto enviado à IA:
+  "MAS O QUE SERIA ESSE ' RESOLVER TRAJETÓRIA ? E DETALHE ELE AINDA NÃO ESTÁ FUNCIONANDIO"
+
+------------------------------------------------------------------------
+PROMPT 06: Correção de Layout Visual Oculto (Ajuste Final da UI)
+------------------------------------------------------------------------
+• Contexto: Envio da captura de tela (imagem) da aplicação rodando para diagnosticar o erro de dimensionamento onde o botão de busca ficava escondido (cortado) abaixo do limite visível do monitor.
+• Texto enviado à IA:
+  "[Envio de imagem da interface] CONTINUA SEM RODAR"
+
+========================================================================
+FIM DO RELATÓRIO
+========================================================================
